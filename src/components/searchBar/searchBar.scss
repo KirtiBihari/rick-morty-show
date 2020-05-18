@@ -1,0 +1,48 @@
+@import '../../shared/styles/mixins.scss';
+
+.searchBar {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    .heading {
+        font-size: 14px;
+        margin: 0 0 2px;
+    }
+    .searchTextBox {
+        display: flex;
+        flex-wrap: nowrap;
+        input[type=text] {
+            width: 100%;
+            height: 32px;
+            border: 1px solid #b5b5b5;
+            font-size: 14px;
+        }
+        button {
+            display: none;
+        }
+    }
+    
+}
+
+@include tablet {
+    .searchBar {
+        width: 270px;
+        margin-bottom: 0;
+        .searchTextBox {
+            display: flex;
+            flex-wrap: nowrap;
+            input[type=text] {
+                width: 200px;
+            }
+            button {
+                width: 60px;
+                display: inline;
+                height: 32px;
+            }
+        }
+        
+    }
+    
+}

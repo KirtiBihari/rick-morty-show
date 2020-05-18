@@ -1,0 +1,16 @@
+@import '../../shared//styles/variables.scss';
+
+.dataListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 8px;
+    label.noItemMsg {
+        text-align: center;
+        padding: 4px;
+        font-size: 18px;
+        color: $font-color1;
+        width: 100%;
+    }
+}

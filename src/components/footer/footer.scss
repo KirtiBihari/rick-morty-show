@@ -1,0 +1,16 @@
+@import '../../shared//styles/variables';
+
+.footerContainer {
+    height: 35px;
+    width: 100%;
+    padding: 4px;
+    background-color: $bg-color1;
+    color: $font-color1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    p {
+        margin: 0;
+    }
+}

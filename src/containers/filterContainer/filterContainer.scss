@@ -1,0 +1,42 @@
+@import '../../shared/styles/mixins.scss';
+
+.filterContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .filterHeader {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        span.headingText {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button {
+            font-size: 30px;
+            padding: 0;
+            color: #343a40;
+            &:focus, &:active {
+                text-decoration: none;
+                box-shadow: none;
+            }
+        }
+
+    }
+}
+
+@include tablet {
+    .filterContainer {
+        width: 200px;
+
+        .filterHeader {
+            span.headingText {
+                margin-top: 0;
+            }
+            button {
+                display: none;
+            }
+        }
+    }
+}

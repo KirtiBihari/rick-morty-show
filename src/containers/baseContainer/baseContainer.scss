@@ -1,0 +1,25 @@
+@import '../../shared/styles/mixins.scss';
+
+.baseContainer {
+    margin-top: 55px;
+    margin-bottom: 35px;
+    height: calc(100% - 90px);
+    overflow-x: hidden;
+    padding: 10px;
+    .dataContent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@include tablet {
+    .baseContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        .dataContent {
+            width: calc(100% - 230px);
+        }
+    }
+    
+}

@@ -1,0 +1,20 @@
+.headerContainer {
+    height: 55px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    nav {
+        height: 100%;
+        width: 100%;
+        padding: 2px;
+        .navbar-brand {
+            padding: 0;
+            img {
+                height: 50px;
+                padding: 4px;
+            }
+        }
+    }
+}

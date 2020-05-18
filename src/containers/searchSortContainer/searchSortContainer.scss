@@ -1,0 +1,24 @@
+@import '../../shared/styles/mixins.scss';
+
+.searchSortContainer {
+    display: flex;
+    flex-direction: column;
+
+    .searchSortcontent {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+
+@include tablet {
+    .searchSortContainer {
+        .searchSortcontent {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    
+}

@@ -1,0 +1,12 @@
+.filterInfo {
+    width: 100%;
+    margin-bottom: 10px;
+    .heading {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .chipList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
