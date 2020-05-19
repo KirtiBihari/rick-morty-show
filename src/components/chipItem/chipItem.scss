@@ -1,12 +1,14 @@
+@import '../../shared//styles//variables.scss';
+
 .chipItem {
     height: 30px;
     font-size: 16px;
     line-height: 16px;
     padding: 4px;
-    background-color: #716e6e;
-    color: #eae6e6;
+    background-color: $bg-color3;
+    color: $font-color3;
     display: flex;
-    border: 1px solid #716e6e;
+    border: 1px solid $border-color2;
     border-radius: 6px;
     margin-right: 8px;
     margin-bottom: 4px;

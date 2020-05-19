@@ -1,6 +1,5 @@
-@import '../../shared/styles/mixins.scss';
 @import '../../shared/styles/variables.scss';
-
+@import '../../shared/styles/mixins.scss';
 
 .infoTile {
     width: calc(50% - 5px);
@@ -28,12 +27,12 @@
             .lbl {
                 align-items: flex-start;
                 text-align: left;
-                color: #afabaa;
+                color: $font-color4;
             }
             .val {
                 align-items: flex-end;
                 text-align: right;
-                color: #946018;
+                color: $font-color5;
             }
         }
     }

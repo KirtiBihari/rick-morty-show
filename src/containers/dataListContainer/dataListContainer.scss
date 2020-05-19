@@ -9,15 +9,19 @@
     padding: 8px;
     label.noItemMsg {
         text-align: center;
-        padding: 4px;
+        padding: 10px 8px;
         font-size: 18px;
         color: $font-color1;
         width: 100%;
+        background-color: $bg-color2;
     }
 }
 
 @include tablet {
     .dataListContainer {
-        background-color: #343a40;
+        background-color: $bg-color2;
+        label.noItemMsg {
+            padding: 4px;
+        }
     }
 }
